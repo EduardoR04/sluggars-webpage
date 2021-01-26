@@ -6,6 +6,7 @@ import Home from "./Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Checkout from "./Checkout";
 import Login from "./Login";
+import Payment from "./Payment";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 
@@ -46,6 +47,11 @@ function App() {
             {/* Press Ctrl + Spacebar at the end of component name to automatically import component */}
             <Header />
             <Checkout />
+          </Route>
+          {/* Route for the payment page */}
+          <Route path="/payment">
+            <Header />
+            <Payment />
           </Route>
           {/* Default Route make sure it is at the bottom or else it wont get triggered */}
           <Route path="/">

@@ -1,27 +1,30 @@
 .Footer {
-    position: fixed;
+    /* position: fixed; */
     height: 100px;
     /* background-color: blue; */
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
+    z-index: 2;
 }
 
 .footer__container {
     background-color: #202e3f;
     bottom: 0px;
     margin-bottom: 0px;
-    width: 1500px;
-    max-width: 1500px;
+    width: 100%;
+    /* max-width: 1500px; */
 }
 
 .footer__list {
     list-style: none;
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .footer__list > .copyright {

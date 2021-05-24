@@ -1,0 +1,34 @@
+.Footer {
+    position: fixed;
+    height: 100px;
+    /* background-color: blue; */
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container {
+    background-color: #202e3f;
+    bottom: 0px;
+    margin-bottom: 0px;
+    width: 1500px;
+    max-width: 1500px;
+}
+
+.footer__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__list > .copyright {
+    font-weight: 700;
+}
+
+li {
+    margin: 0 10px;
+}
+

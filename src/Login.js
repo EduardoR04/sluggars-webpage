@@ -40,7 +40,7 @@ function Login() {
       <Link to="/">
         <img
           className="login__logo"
-          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.geni.us%2Fwp-content%2Fuploads%2F2016%2F07%2FAmazonAssociates.png&f=1&nofb=1"
+          src="https://i.ibb.co/xqg1Hkt/Sluggers-logo.png"
           alt="amazon logo"
         />
       </Link>
@@ -71,14 +71,8 @@ function Login() {
           </button>
         </form>
 
-        <p>
-          By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use &
-          Sale. Please see our Privacy Notie, our Cookies Notice and our
-          Interest-base Ads Notice
-        </p>
-
         <button onClick={register} className="login__registerButton">
-          Create your Amazon Account
+          Create Account
         </button>
       </div>
     </div>

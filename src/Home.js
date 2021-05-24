@@ -1,68 +1,70 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+import ImageSlider from "./ImageSlider";
+import { SliderData } from "./SliderData";
 
 function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <img
+        <ImageSlider className="home__image" slides={SliderData} />
+        {/* <img
           className="home__image"
-          src="https://images-na.ssl-images-amazon.com/images/G/01/img18/home/journeys/ZDJjOTcyYWEt/ZDJjOTcyYWEt-ZGVjOWMzM2Et-w1500._CB415333836_.jpg"
+          src="https://dac8r2vkxfv8c.cloudfront.net/images/banner/582c-09-20-Imagesasdasfdsfsd.jpg"
           alt=""
-        />
-
+        /> */}
         <div className="home__row">
           <Product
             id="10982345"
-            title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
-            price={14.97}
-            image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+            title="Wilson A2000 SuperSkin DP15 11.5 Baseball Glove: WBW100109115"
+            price={279.95}
+            image="https://dac8r2vkxfv8c.cloudfront.net/images/products/f95b-09-20-wilson-a2000-superskin-dp15-11-5--baseball-glove--wbw100109115-33614-1_l.jpg"
+            rating={5}
+          />
+
+          <Product
+            id="1092355"
+            title="2021 Louisville Slugger Meta BBCOR Baseball Bat: WBL2463010"
+            price={499.95}
+            image="https://dac8r2vkxfv8c.cloudfront.net/images/products/705b-05-21-2021-louisville-slugger-meta-bbcor-baseball-bat--wbl2463010-33507-1_l.jpg"
+            rating={4}
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            id="1092355"
+            title="Nike Alpha Huarache 3 Elite Men's Low Molded Baseball Cleats"
+            price={84.99}
+            image="https://www.baseballmonkey.com/media/catalog/product/cache/b32e7142753984368b8a4b1edc19a338/n/i/nike-baseball-footwear-mens-alpha-huarache-3-elite-ck0976.jpg"
             rating={3}
           />
           <Product
             id="1092355"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, dough Hook and Whisk, 5 Litre, Glass Bowl"
-            price={239.0}
-            image="https://i.ebayimg.com/images/g/ZXAAAOSw-19fB~El/s-l300.jpg"
-            rating={4}
-          />
-        </div>
-
-        <div className="home__row">
-          <Product
-            id="1092355"
-            title="All-new Echo (4th Gen, 2020 release) | With premium sound, smart home hub, and Alexa | Charcoal"
-            price={99.99}
-            image="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6430/6430060cv12d.jpg"
+            title="EvoShield XVT Senior Batting Helmet"
+            price={29.99}
+            image="https://www.baseballmonkey.com/media/catalog/product/cache/b32e7142753984368b8a4b1edc19a338/8/8/887768732912.jpg"
             rating={5}
           />
           <Product
             id="1092355"
-            title="Apple iPad Mini (Wi-Fi, 64GB) - Space Gray (Latest Model)"
-            price={389.0}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Ha06XS-VL._AC_SL1500_.jpg"
-            rating={5}
-          />
-          <Product
-            id="1092355"
-            title="Fitbit Inspire 2 Health & Fitness Tracker with a Free 1-Year Fitbit Premium Trial"
-            price={389.0}
-            image="https://images-na.ssl-images-amazon.com/images/I/71wPLzgLNYL._AC_SL1500_.jpg"
+            title="Wilson A1010S Blem Baseball - 1 Dozen"
+            price={44.99}
+            image="https://www.baseballmonkey.com/media/catalog/product/cache/b32e7142753984368b8a4b1edc19a338/0/2/026388000357.jpg"
             rating={4}
           />
         </div>
-
         <div className="home__row">
           <Product
             id="1092355"
-            title="SAMSUNG LC49RG90SSNXZA 49-Inch CRG9 Curved Gaming Monitor, Black"
-            price={1097.95}
-            image="https://images-na.ssl-images-amazon.com/images/I/712DMKbmPVL._AC_SL1500_.jpg"
+            title="All Star System 7 Pro Adult Catcher's Kit - 2020 Model"
+            price={474.99}
+            image="https://www.baseballmonkey.com/media/catalog/product/cache/b32e7142753984368b8a4b1edc19a338/0/2/029343055560.jpg"
             rating={4}
           />
         </div>
       </div>
+      {/* <Footer></Footer> */}
     </div>
   );
 }

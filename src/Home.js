@@ -3,7 +3,6 @@ import "./Home.css";
 import Product from "./Product";
 import ImageSlider from "./ImageSlider";
 import { SliderData } from "./SliderData";
-import Footer from "./Footer";
 
 function Home() {
   return (
@@ -64,7 +63,6 @@ function Home() {
             rating={4}
           />
         </div>
-        {/* <Footer></Footer> */}
       </div>
     </div>
   );

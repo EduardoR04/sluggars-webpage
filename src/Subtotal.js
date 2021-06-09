@@ -23,19 +23,19 @@ function Subtotal() {
         <br />
       </>
       <CurrencyFormat
-        // renderText={(value) => (
-        //   <>
-        //     <p>
-        //       Subtotal ({basket.length} items): <strong>{value}</strong>
-        //     </p>
-        //     <small className="subtotal__gift">
-        //       <input type="checkbox " />
-        //       This order contains a gift
-        //     </small>
-        //   </>
-        // )}
+        renderText={(value) => (
+          <>
+            <p>
+              {/* Part of the homework */}
+              Subtotal ({basket.length} items): <strong>{value}</strong>
+            </p>
+            <small className="subtotal__gift">
+              <input type="checkbox" /> This order contains a gift
+            </small>
+          </>
+        )}
         decimalScale={2}
-        // value={}
+        value={getBasketTotal(basket)}
         displayType={"text"}
         thousandSeperator={true}
         prefix={"$"}

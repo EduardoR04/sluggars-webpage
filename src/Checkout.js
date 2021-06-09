@@ -10,9 +10,9 @@ function Checkout() {
     <div className="checkout">
       <div className="checkout__left">
         <img
+          className="checkout__ad"
           src="https://i.ibb.co/GxzDGrK/Screen-Shot-2021-05-20-at-9-17-01-PM.png"
           alt=""
-          className="checkout__ad"
         />
 
         <div>

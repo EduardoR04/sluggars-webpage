@@ -10,7 +10,7 @@ function Subtotal() {
   const [{ basket }] = useStateValue();
   return (
     <div className="subtotal">
-      <>
+      {/* <>
         <p>
           Subtotal ({basket.length} items):{" "}
           <strong>{getBasketTotal(basket)}</strong>
@@ -21,7 +21,7 @@ function Subtotal() {
           This order contains a gift
         </small>
         <br />
-      </>
+      </> */}
       <CurrencyFormat
         renderText={(value) => (
           <>
